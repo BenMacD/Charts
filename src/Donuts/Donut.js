@@ -18,12 +18,14 @@ class Donut extends Component {
 
 
         return(
-            <div class="semi-donut margin"  style={firstStyle}>
-                Java
+            <div>
+                 <div class="semi-donut margin"  style={firstStyle}>
+                    Java
+                </div>
+                <div class="semi-donut margin" style={secondStyle}>
+                    Postgres
+                </div>
             </div>
-            /*<div class="semi-donut-model-2 margin" style={secondStyle}>
-                Postgres
-            </div>*/
         )
     }
 
